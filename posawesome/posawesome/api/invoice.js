@@ -9,7 +9,4 @@ frappe.ui.form.on('Sales Invoice', {
             };
         });
     },
-    before_save: function(frm) {
-        frm.set_value('token', frm.doc.name);
-    }
 });
