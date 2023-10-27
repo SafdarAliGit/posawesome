@@ -243,6 +243,3 @@ def calc_delivery_charges(doc):
     if calculate_taxes_and_totals:
         doc.calculate_taxes_and_totals()
 
-# custom code
-def before_save(doc, method):
-    doc.token = doc.name
