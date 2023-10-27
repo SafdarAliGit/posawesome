@@ -8,5 +8,7 @@ frappe.ui.form.on('POS Profile', {
                 filters: { 'type': 'Cash' }
             };
         });
+
     },
+
 });

@@ -531,6 +531,8 @@ def update_invoice(data):
                 tax.included_in_print_rate = 1
 
     invoice_doc.save()
+    invoice_doc.update({'token': invoice_doc.name}) #custom
+    invoice_doc.save() #custom
     return invoice_doc
 
 
