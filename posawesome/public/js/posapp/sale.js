@@ -1,7 +1,7 @@
-import Home from './Home.vue';
+import Home from './Sale.vue';
 
-frappe.provide('frappe.PosApp');
-frappe.PosApp.posapp = class {
+frappe.provide('frappe.SaleApp');
+frappe.SaleApp.sale = class {
     constructor({ parent }) {
         this.$parent = $(document);
         this.page = parent.page;

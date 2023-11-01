@@ -750,6 +750,7 @@
                 color="warning"
                 dark
                 @click="get_draft_invoices"
+                 :disabled=true
                 >{{ __("Held") }}</v-btn
               >
             </v-col>
@@ -761,6 +762,7 @@
                 color="secondary"
                 dark
                 @click="open_returns"
+                 :disabled=true
                 >{{ __("Return") }}</v-btn
               >
             </v-col>
@@ -771,6 +773,7 @@
                 color="error"
                 dark
                 @click="cancel_dialog = true"
+                 :disabled=true
                 >{{ __("Cancel") }}</v-btn
               >
             </v-col>
@@ -781,22 +784,24 @@
                 color="accent"
                 dark
                 @click="new_invoice"
+                 :disabled=true
                 >{{ __("Save/New") }}</v-btn
               >
             </v-col>
-            <v-col cols="12" class="pa-1">
+            <v-col class="pa-1">
               <v-btn
                 block
                 class="pa-0"
                 color="success"
                 @click="show_payment"
                 dark
+                :disabled=true
                 >{{ __("PAY") }}</v-btn
               >
             </v-col>
             <v-col
               v-if="pos_profile.posa_allow_print_draft_invoices"
-              cols="6"
+              cols="12"
               class="pa-1"
             >
               <v-btn
@@ -805,7 +810,6 @@
                 color="primary"
                 @click="print_draft_invoice"
                 dark
-                 :disabled=true
                 >{{ __("Print Draft") }}</v-btn
               >
             </v-col>

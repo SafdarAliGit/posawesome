@@ -8,7 +8,5 @@ frappe.ui.form.on('Sales Invoice', {
                 filters: { 'company': doc.company, 'disabled': 0 }
             };
         });
-
     },
-
 });

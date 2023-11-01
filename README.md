@@ -122,4 +122,3 @@ Will using for this the same guidelines from Erpnext
 GNU/General Public License (see [license.txt](https://github.com/yrestom/POS-Awesome/blob/master/license.txt))
 
 The POS Awesome code is licensed as GNU General Public License (v3)
-# posawesome
