@@ -5,7 +5,7 @@ frappe.pages['saleapp'].on_page_load = function(wrapper) {
 		title: 'Sale App',
 		single_column: true
 	});
-	this.page.$SaleApp = new frappe.SaleApp.saleapp(this.page);
+	this.page.$PosApp = new frappe.SaleApp.saleapp(this.page);
 
 	$('div.navbar-fixed-top').find('.container').css('padding', '0');
 
