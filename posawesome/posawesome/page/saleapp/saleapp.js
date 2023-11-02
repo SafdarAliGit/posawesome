@@ -1,5 +1,5 @@
 {% include "posawesome/posawesome/page/saleapp/onscan.js" %}
-frappe.pages['saleapp'].on_page_load = function(wrapper) {
+frappe.pages['posapp'].on_page_load = function(wrapper) {
 	var page = frappe.ui.make_app_page({
 		parent: wrapper,
 		title: 'Sale App',
