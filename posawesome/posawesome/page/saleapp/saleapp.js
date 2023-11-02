@@ -1,11 +1,11 @@
 {% include "posawesome/posawesome/page/saleapp/onscan.js" %}
-frappe.pages['posapp'].on_page_load = function(wrapper) {
+frappe.pages['saleapp'].on_page_load = function(wrapper) {
 	var page = frappe.ui.make_app_page({
 		parent: wrapper,
 		title: 'Sale App',
 		single_column: true
 	});
-	this.page.$SaleApp = new frappe.PosApp.posapp(this.page);
+	this.page.$SaleApp = new frappe.SaleApp.saleapp(this.page);
 
 	$('div.navbar-fixed-top').find('.container').css('padding', '0');
 
