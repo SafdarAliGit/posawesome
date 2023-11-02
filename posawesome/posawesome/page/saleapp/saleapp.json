@@ -1,0 +1,35 @@
+{
+ "content": null,
+ "creation": "2023-11-02 06:45:50.333643",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-11-02 06:46:05.846091",
+ "modified_by": "Administrator",
+ "module": "POSAwesome",
+ "name": "saleapp",
+ "owner": "Administrator",
+ "page_name": "saleapp",
+ "roles": [
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Sales Manager"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Accounts User"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Sale App"
+}

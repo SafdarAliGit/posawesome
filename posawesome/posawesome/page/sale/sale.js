@@ -15,7 +15,7 @@ frappe.pages['sale'].on_page_load = function (wrapper) {
 	$("head").append("<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css'>");
 	$("head").append("<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' />");
 };
-	
+
 if (frappe.boot.lang == "pt") {
 	$.extend(
 		frappe._messages, {
