@@ -1,4 +1,4 @@
 import './toConsole';
 import './posapp/posapp';
 // import './posapp/sale';
-import './posapp/saleapp';
+import './saleapp/saleapp';
