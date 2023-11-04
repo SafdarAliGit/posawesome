@@ -2564,7 +2564,7 @@ export default {
         invoice_name +
         "&trigger_print=1" +
         "&format=" +
-        print_format +
+        "Slip" +
         "&no_letterhead=" +
         letter_head;
       const printWindow = window.open(url, "Print");

@@ -1,4 +1,4 @@
-import Home from './Home.vue';
+import Home from './PosHome.vue';
 
 frappe.provide('frappe.PosApp');
 frappe.PosApp.posapp = class {

@@ -9,7 +9,7 @@
 
 <script>
 import Navbar from './components/Navbar.vue';
-import POS from './components/pos/SalePos.vue';
+import POS from './components/pos/PosPos.vue';
 import Payments from './components/payments/Pay.vue';
 
 export default {

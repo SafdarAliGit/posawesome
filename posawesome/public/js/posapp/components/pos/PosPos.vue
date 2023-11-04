@@ -17,7 +17,7 @@
         cols="12"
         class="pos pr-0"
       >
-        <ItemsSelector></ItemsSelector>
+<!--        <ItemsSelector></ItemsSelector>-->
       </v-col>
       <v-col
         v-show="offers"
@@ -43,17 +43,17 @@
       </v-col>
       <v-col
         v-show="payment"
-        xl="5"
-        lg="5"
-        md="5"
-        sm="5"
+        xl="12"
+        lg="12"
+        md="12"
+        sm="12"
         cols="12"
         class="pos pr-0"
       >
         <Payments></Payments>
       </v-col>
 
-      <v-col xl="7" lg="7" md="7" sm="7" cols="12" class="pos">
+      <v-col xl="12" lg="12" md="12" sm="12" cols="12" class="pos">
         <Invoice></Invoice>
       </v-col>
     </v-row>
@@ -63,7 +63,7 @@
 <script>
 import { evntBus } from '../../bus';
 import ItemsSelector from './ItemsSelector.vue';
-import Invoice from './SaleInvoice.vue';
+import Invoice from './PosInvoice.vue';
 import OpeningDialog from './OpeningDialog.vue';
 import Payments from './Payments.vue';
 import PosOffers from './PosOffers.vue';

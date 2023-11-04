@@ -1,4 +1,4 @@
-import Home from './Sale.vue';
+import Home from './SaleHome.vue';
 
 frappe.provide('frappe.SaleApp');
 frappe.SaleApp.saleapp = class {
